@@ -1,0 +1,3 @@
+/home/sammy/spring-cloud-pratics/feginDemo/fegin-api/src/main/java/com/sammy/api/DemoService.java
+/home/sammy/spring-cloud-pratics/feginDemo/fegin-api/src/main/java/com/sammy/vo/UserDetailVO.java
+/home/sammy/spring-cloud-pratics/feginDemo/fegin-api/src/main/java/com/sammy/fallback/DemoFallBack.java

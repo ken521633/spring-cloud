@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: customer
+server:
+  port: 28000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:8761/eureka/,http://eureka2:8762/eureka/
+  instance:
+    hostname: localhost
+feign:
+  hystrix:
+    enabled: true
+

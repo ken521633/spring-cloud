@@ -1,0 +1,11 @@
+server:
+  port: 6191
+spring:
+  application:
+    name: fegin-service
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://eureka1:8761/eureka/,http://eureka2:8762/eureka/
